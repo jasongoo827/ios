@@ -7,69 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF3484432A9C7F7600C6CCFF /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484422A9C7F7600C6CCFF /* ScrumdingerApp.swift */; };
-		FF3484452A9C7F7600C6CCFF /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484442A9C7F7600C6CCFF /* MeetingView.swift */; };
-		FF3484472A9C7F7700C6CCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3484462A9C7F7700C6CCFF /* Assets.xcassets */; };
-		FF34844A2A9C7F7700C6CCFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3484492A9C7F7700C6CCFF /* Preview Assets.xcassets */; };
-		FF3484542A9C7F7700C6CCFF /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484532A9C7F7700C6CCFF /* ScrumdingerTests.swift */; };
-		FF34845E2A9C7F7700C6CCFF /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34845D2A9C7F7700C6CCFF /* ScrumdingerUITests.swift */; };
-		FF3484602A9C7F7700C6CCFF /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34845F2A9C7F7700C6CCFF /* ScrumdingerUITestsLaunchTests.swift */; };
-		FF3484A42A9F4F6000C6CCFF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484A32A9F4F6000C6CCFF /* Theme.swift */; };
-		FF3484A62A9F533B00C6CCFF /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484A52A9F533B00C6CCFF /* DailyScrum.swift */; };
-		FF3484A82A9F54F800C6CCFF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484A72A9F54F800C6CCFF /* CardView.swift */; };
-		FF3484AA2A9F5BDF00C6CCFF /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484A92A9F5BDF00C6CCFF /* LabelStyle.swift */; };
+		FF3484792A9C930200C6CCFF /* ex00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484782A9C930200C6CCFF /* ex00App.swift */; };
+		FF34847B2A9C930200C6CCFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF34847A2A9C930200C6CCFF /* ContentView.swift */; };
+		FF34847D2A9C930300C6CCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34847C2A9C930300C6CCFF /* Assets.xcassets */; };
+		FF3484802A9C930300C6CCFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF34847F2A9C930300C6CCFF /* Preview Assets.xcassets */; };
+		FF34848A2A9C930300C6CCFF /* ex00Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484892A9C930300C6CCFF /* ex00Tests.swift */; };
+		FF3484942A9C930300C6CCFF /* ex00UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484932A9C930300C6CCFF /* ex00UITests.swift */; };
+		FF3484962A9C930300C6CCFF /* ex00UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3484952A9C930300C6CCFF /* ex00UITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FF3484502A9C7F7700C6CCFF /* PBXContainerItemProxy */ = {
+		FF3484862A9C930300C6CCFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF3484372A9C7F7600C6CCFF /* Project object */;
+			containerPortal = FF34846D2A9C930200C6CCFF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF34843E2A9C7F7600C6CCFF;
-			remoteInfo = Scrumdinger;
+			remoteGlobalIDString = FF3484742A9C930200C6CCFF;
+			remoteInfo = ex00;
 		};
-		FF34845A2A9C7F7700C6CCFF /* PBXContainerItemProxy */ = {
+		FF3484902A9C930300C6CCFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF3484372A9C7F7600C6CCFF /* Project object */;
+			containerPortal = FF34846D2A9C930200C6CCFF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF34843E2A9C7F7600C6CCFF;
-			remoteInfo = Scrumdinger;
+			remoteGlobalIDString = FF3484742A9C930200C6CCFF;
+			remoteInfo = ex00;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF34843F2A9C7F7600C6CCFF /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF3484422A9C7F7600C6CCFF /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		FF3484442A9C7F7600C6CCFF /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		FF3484462A9C7F7700C6CCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF3484492A9C7F7700C6CCFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF34844F2A9C7F7700C6CCFF /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF3484532A9C7F7700C6CCFF /* ScrumdingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerTests.swift; sourceTree = "<group>"; };
-		FF3484592A9C7F7700C6CCFF /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF34845D2A9C7F7700C6CCFF /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
-		FF34845F2A9C7F7700C6CCFF /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FF3484A32A9F4F6000C6CCFF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		FF3484A52A9F533B00C6CCFF /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		FF3484A72A9F54F800C6CCFF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		FF3484A92A9F5BDF00C6CCFF /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
+		FF3484752A9C930200C6CCFF /* ex00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ex00.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3484782A9C930200C6CCFF /* ex00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex00App.swift; sourceTree = "<group>"; };
+		FF34847A2A9C930200C6CCFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF34847C2A9C930300C6CCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF34847F2A9C930300C6CCFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF3484852A9C930300C6CCFF /* ex00Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex00Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3484892A9C930300C6CCFF /* ex00Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex00Tests.swift; sourceTree = "<group>"; };
+		FF34848F2A9C930300C6CCFF /* ex00UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ex00UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3484932A9C930300C6CCFF /* ex00UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex00UITests.swift; sourceTree = "<group>"; };
+		FF3484952A9C930300C6CCFF /* ex00UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex00UITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF34843C2A9C7F7600C6CCFF /* Frameworks */ = {
+		FF3484722A9C930200C6CCFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF34844C2A9C7F7700C6CCFF /* Frameworks */ = {
+		FF3484822A9C930300C6CCFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF3484562A9C7F7700C6CCFF /* Frameworks */ = {
+		FF34848C2A9C930300C6CCFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,154 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF3484362A9C7F7600C6CCFF = {
+		FF34846C2A9C930200C6CCFF = {
 			isa = PBXGroup;
 			children = (
-				FF3484412A9C7F7600C6CCFF /* Scrumdinger */,
-				FF3484522A9C7F7700C6CCFF /* ScrumdingerTests */,
-				FF34845C2A9C7F7700C6CCFF /* ScrumdingerUITests */,
-				FF3484402A9C7F7600C6CCFF /* Products */,
+				FF3484772A9C930200C6CCFF /* ex00 */,
+				FF3484882A9C930300C6CCFF /* ex00Tests */,
+				FF3484922A9C930300C6CCFF /* ex00UITests */,
+				FF3484762A9C930200C6CCFF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FF3484402A9C7F7600C6CCFF /* Products */ = {
+		FF3484762A9C930200C6CCFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF34843F2A9C7F7600C6CCFF /* Scrumdinger.app */,
-				FF34844F2A9C7F7700C6CCFF /* ScrumdingerTests.xctest */,
-				FF3484592A9C7F7700C6CCFF /* ScrumdingerUITests.xctest */,
+				FF3484752A9C930200C6CCFF /* ex00.app */,
+				FF3484852A9C930300C6CCFF /* ex00Tests.xctest */,
+				FF34848F2A9C930300C6CCFF /* ex00UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF3484412A9C7F7600C6CCFF /* Scrumdinger */ = {
+		FF3484772A9C930200C6CCFF /* ex00 */ = {
 			isa = PBXGroup;
 			children = (
-				FF3484A22A9F4F2300C6CCFF /* Models */,
-				FF3484422A9C7F7600C6CCFF /* ScrumdingerApp.swift */,
-				FF3484442A9C7F7600C6CCFF /* MeetingView.swift */,
-				FF3484462A9C7F7700C6CCFF /* Assets.xcassets */,
-				FF3484482A9C7F7700C6CCFF /* Preview Content */,
+				FF3484782A9C930200C6CCFF /* ex00App.swift */,
+				FF34847A2A9C930200C6CCFF /* ContentView.swift */,
+				FF34847C2A9C930300C6CCFF /* Assets.xcassets */,
+				FF34847E2A9C930300C6CCFF /* Preview Content */,
 			);
-			path = Scrumdinger;
+			path = ex00;
 			sourceTree = "<group>";
 		};
-		FF3484482A9C7F7700C6CCFF /* Preview Content */ = {
+		FF34847E2A9C930300C6CCFF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FF3484492A9C7F7700C6CCFF /* Preview Assets.xcassets */,
+				FF34847F2A9C930300C6CCFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FF3484522A9C7F7700C6CCFF /* ScrumdingerTests */ = {
+		FF3484882A9C930300C6CCFF /* ex00Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FF3484532A9C7F7700C6CCFF /* ScrumdingerTests.swift */,
+				FF3484892A9C930300C6CCFF /* ex00Tests.swift */,
 			);
-			path = ScrumdingerTests;
+			path = ex00Tests;
 			sourceTree = "<group>";
 		};
-		FF34845C2A9C7F7700C6CCFF /* ScrumdingerUITests */ = {
+		FF3484922A9C930300C6CCFF /* ex00UITests */ = {
 			isa = PBXGroup;
 			children = (
-				FF34845D2A9C7F7700C6CCFF /* ScrumdingerUITests.swift */,
-				FF34845F2A9C7F7700C6CCFF /* ScrumdingerUITestsLaunchTests.swift */,
+				FF3484932A9C930300C6CCFF /* ex00UITests.swift */,
+				FF3484952A9C930300C6CCFF /* ex00UITestsLaunchTests.swift */,
 			);
-			path = ScrumdingerUITests;
-			sourceTree = "<group>";
-		};
-		FF3484A22A9F4F2300C6CCFF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FF3484A72A9F54F800C6CCFF /* CardView.swift */,
-				FF3484A32A9F4F6000C6CCFF /* Theme.swift */,
-				FF3484A52A9F533B00C6CCFF /* DailyScrum.swift */,
-				FF3484A92A9F5BDF00C6CCFF /* LabelStyle.swift */,
-			);
-			path = Models;
+			path = ex00UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF34843E2A9C7F7600C6CCFF /* Scrumdinger */ = {
+		FF3484742A9C930200C6CCFF /* ex00 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF3484632A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildConfigurationList = FF3484992A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00" */;
 			buildPhases = (
-				FF34843B2A9C7F7600C6CCFF /* Sources */,
-				FF34843C2A9C7F7600C6CCFF /* Frameworks */,
-				FF34843D2A9C7F7600C6CCFF /* Resources */,
+				FF3484712A9C930200C6CCFF /* Sources */,
+				FF3484722A9C930200C6CCFF /* Frameworks */,
+				FF3484732A9C930200C6CCFF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Scrumdinger;
-			productName = Scrumdinger;
-			productReference = FF34843F2A9C7F7600C6CCFF /* Scrumdinger.app */;
+			name = ex00;
+			productName = ex00;
+			productReference = FF3484752A9C930200C6CCFF /* ex00.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF34844E2A9C7F7700C6CCFF /* ScrumdingerTests */ = {
+		FF3484842A9C930300C6CCFF /* ex00Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF3484662A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */;
+			buildConfigurationList = FF34849C2A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00Tests" */;
 			buildPhases = (
-				FF34844B2A9C7F7700C6CCFF /* Sources */,
-				FF34844C2A9C7F7700C6CCFF /* Frameworks */,
-				FF34844D2A9C7F7700C6CCFF /* Resources */,
+				FF3484812A9C930300C6CCFF /* Sources */,
+				FF3484822A9C930300C6CCFF /* Frameworks */,
+				FF3484832A9C930300C6CCFF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF3484512A9C7F7700C6CCFF /* PBXTargetDependency */,
+				FF3484872A9C930300C6CCFF /* PBXTargetDependency */,
 			);
-			name = ScrumdingerTests;
-			productName = ScrumdingerTests;
-			productReference = FF34844F2A9C7F7700C6CCFF /* ScrumdingerTests.xctest */;
+			name = ex00Tests;
+			productName = ex00Tests;
+			productReference = FF3484852A9C930300C6CCFF /* ex00Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF3484582A9C7F7700C6CCFF /* ScrumdingerUITests */ = {
+		FF34848E2A9C930300C6CCFF /* ex00UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF3484692A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */;
+			buildConfigurationList = FF34849F2A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00UITests" */;
 			buildPhases = (
-				FF3484552A9C7F7700C6CCFF /* Sources */,
-				FF3484562A9C7F7700C6CCFF /* Frameworks */,
-				FF3484572A9C7F7700C6CCFF /* Resources */,
+				FF34848B2A9C930300C6CCFF /* Sources */,
+				FF34848C2A9C930300C6CCFF /* Frameworks */,
+				FF34848D2A9C930300C6CCFF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF34845B2A9C7F7700C6CCFF /* PBXTargetDependency */,
+				FF3484912A9C930300C6CCFF /* PBXTargetDependency */,
 			);
-			name = ScrumdingerUITests;
-			productName = ScrumdingerUITests;
-			productReference = FF3484592A9C7F7700C6CCFF /* ScrumdingerUITests.xctest */;
+			name = ex00UITests;
+			productName = ex00UITests;
+			productReference = FF34848F2A9C930300C6CCFF /* ex00UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF3484372A9C7F7600C6CCFF /* Project object */ = {
+		FF34846D2A9C930200C6CCFF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					FF34843E2A9C7F7600C6CCFF = {
+					FF3484742A9C930200C6CCFF = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					FF34844E2A9C7F7700C6CCFF = {
+					FF3484842A9C930300C6CCFF = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = FF34843E2A9C7F7600C6CCFF;
+						TestTargetID = FF3484742A9C930200C6CCFF;
 					};
-					FF3484582A9C7F7700C6CCFF = {
+					FF34848E2A9C930300C6CCFF = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = FF34843E2A9C7F7600C6CCFF;
+						TestTargetID = FF3484742A9C930200C6CCFF;
 					};
 				};
 			};
-			buildConfigurationList = FF34843A2A9C7F7600C6CCFF /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = FF3484702A9C930200C6CCFF /* Build configuration list for PBXProject "ex00" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = FF3484362A9C7F7600C6CCFF;
-			productRefGroup = FF3484402A9C7F7600C6CCFF /* Products */;
+			mainGroup = FF34846C2A9C930200C6CCFF;
+			productRefGroup = FF3484762A9C930200C6CCFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF34843E2A9C7F7600C6CCFF /* Scrumdinger */,
-				FF34844E2A9C7F7700C6CCFF /* ScrumdingerTests */,
-				FF3484582A9C7F7700C6CCFF /* ScrumdingerUITests */,
+				FF3484742A9C930200C6CCFF /* ex00 */,
+				FF3484842A9C930300C6CCFF /* ex00Tests */,
+				FF34848E2A9C930300C6CCFF /* ex00UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF34843D2A9C7F7600C6CCFF /* Resources */ = {
+		FF3484732A9C930200C6CCFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF34844A2A9C7F7700C6CCFF /* Preview Assets.xcassets in Resources */,
-				FF3484472A9C7F7700C6CCFF /* Assets.xcassets in Resources */,
+				FF3484802A9C930300C6CCFF /* Preview Assets.xcassets in Resources */,
+				FF34847D2A9C930300C6CCFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF34844D2A9C7F7700C6CCFF /* Resources */ = {
+		FF3484832A9C930300C6CCFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF3484572A9C7F7700C6CCFF /* Resources */ = {
+		FF34848D2A9C930300C6CCFF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,53 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF34843B2A9C7F7600C6CCFF /* Sources */ = {
+		FF3484712A9C930200C6CCFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3484A62A9F533B00C6CCFF /* DailyScrum.swift in Sources */,
-				FF3484A42A9F4F6000C6CCFF /* Theme.swift in Sources */,
-				FF3484452A9C7F7600C6CCFF /* MeetingView.swift in Sources */,
-				FF3484432A9C7F7600C6CCFF /* ScrumdingerApp.swift in Sources */,
-				FF3484AA2A9F5BDF00C6CCFF /* LabelStyle.swift in Sources */,
-				FF3484A82A9F54F800C6CCFF /* CardView.swift in Sources */,
+				FF34847B2A9C930200C6CCFF /* ContentView.swift in Sources */,
+				FF3484792A9C930200C6CCFF /* ex00App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF34844B2A9C7F7700C6CCFF /* Sources */ = {
+		FF3484812A9C930300C6CCFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3484542A9C7F7700C6CCFF /* ScrumdingerTests.swift in Sources */,
+				FF34848A2A9C930300C6CCFF /* ex00Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF3484552A9C7F7700C6CCFF /* Sources */ = {
+		FF34848B2A9C930300C6CCFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3484602A9C7F7700C6CCFF /* ScrumdingerUITestsLaunchTests.swift in Sources */,
-				FF34845E2A9C7F7700C6CCFF /* ScrumdingerUITests.swift in Sources */,
+				FF3484942A9C930300C6CCFF /* ex00UITests.swift in Sources */,
+				FF3484962A9C930300C6CCFF /* ex00UITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF3484512A9C7F7700C6CCFF /* PBXTargetDependency */ = {
+		FF3484872A9C930300C6CCFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF34843E2A9C7F7600C6CCFF /* Scrumdinger */;
-			targetProxy = FF3484502A9C7F7700C6CCFF /* PBXContainerItemProxy */;
+			target = FF3484742A9C930200C6CCFF /* ex00 */;
+			targetProxy = FF3484862A9C930300C6CCFF /* PBXContainerItemProxy */;
 		};
-		FF34845B2A9C7F7700C6CCFF /* PBXTargetDependency */ = {
+		FF3484912A9C930300C6CCFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF34843E2A9C7F7600C6CCFF /* Scrumdinger */;
-			targetProxy = FF34845A2A9C7F7700C6CCFF /* PBXContainerItemProxy */;
+			target = FF3484742A9C930200C6CCFF /* ex00 */;
+			targetProxy = FF3484902A9C930300C6CCFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		FF3484612A9C7F7700C6CCFF /* Debug */ = {
+		FF3484972A9C930300C6CCFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		FF3484622A9C7F7700C6CCFF /* Release */ = {
+		FF3484982A9C930300C6CCFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -433,14 +409,14 @@
 			};
 			name = Release;
 		};
-		FF3484642A9C7F7700C6CCFF /* Debug */ = {
+		FF34849A2A9C930300C6CCFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ex00/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,14 +437,14 @@
 			};
 			name = Debug;
 		};
-		FF3484652A9C7F7700C6CCFF /* Release */ = {
+		FF34849B2A9C930300C6CCFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ex00/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -481,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,7 +465,7 @@
 			};
 			name = Release;
 		};
-		FF3484672A9C7F7700C6CCFF /* Debug */ = {
+		FF34849D2A9C930300C6CCFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScrumdingerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumdinger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex00.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ex00";
 			};
 			name = Debug;
 		};
-		FF3484682A9C7F7700C6CCFF /* Release */ = {
+		FF34849E2A9C930300C6CCFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScrumdingerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumdinger";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ex00.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ex00";
 			};
 			name = Release;
 		};
-		FF34846A2A9C7F7700C6CCFF /* Debug */ = {
+		FF3484A02A9C930300C6CCFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,16 +511,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScrumdingerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumdinger;
+				TEST_TARGET_NAME = ex00;
 			};
 			name = Debug;
 		};
-		FF34846B2A9C7F7700C6CCFF /* Release */ = {
+		FF3484A12A9C930300C6CCFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,55 +528,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScrumdingerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "Seoul42-ios.ex00UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Scrumdinger;
+				TEST_TARGET_NAME = ex00;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF34843A2A9C7F7600C6CCFF /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		FF3484702A9C930200C6CCFF /* Build configuration list for PBXProject "ex00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3484612A9C7F7700C6CCFF /* Debug */,
-				FF3484622A9C7F7700C6CCFF /* Release */,
+				FF3484972A9C930300C6CCFF /* Debug */,
+				FF3484982A9C930300C6CCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF3484632A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+		FF3484992A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3484642A9C7F7700C6CCFF /* Debug */,
-				FF3484652A9C7F7700C6CCFF /* Release */,
+				FF34849A2A9C930300C6CCFF /* Debug */,
+				FF34849B2A9C930300C6CCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF3484662A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */ = {
+		FF34849C2A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3484672A9C7F7700C6CCFF /* Debug */,
-				FF3484682A9C7F7700C6CCFF /* Release */,
+				FF34849D2A9C930300C6CCFF /* Debug */,
+				FF34849E2A9C930300C6CCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF3484692A9C7F7700C6CCFF /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */ = {
+		FF34849F2A9C930300C6CCFF /* Build configuration list for PBXNativeTarget "ex00UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF34846A2A9C7F7700C6CCFF /* Debug */,
-				FF34846B2A9C7F7700C6CCFF /* Release */,
+				FF3484A02A9C930300C6CCFF /* Debug */,
+				FF3484A12A9C930300C6CCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF3484372A9C7F7600C6CCFF /* Project object */;
+	rootObject = FF34846D2A9C930200C6CCFF /* Project object */;
 }
