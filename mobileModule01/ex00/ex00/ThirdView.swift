@@ -1,0 +1,18 @@
+//
+//  ThirdView.swift
+//  ex00
+//
+//  Created by 구재우 on 2023/09/15.
+//
+
+import SwiftUI
+
+struct ThirdView: View
+{
+    @Binding var text: String
+    var body: some View
+    {
+        Text("Weekly" + text)
+    }
+}
+

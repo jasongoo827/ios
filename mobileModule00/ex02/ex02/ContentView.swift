@@ -24,30 +24,36 @@ struct ContentView: View {
     @State var flag = true
     
     var body: some View {
-        VStack {
-            Text(title) // 가장 위에 배치
-                .font(.title)
-            Text(display) // 오른쪽 정렬
-                .font(.title)
-                .frame(maxWidth: .infinity, alignment:  .trailing)
-            Text(result) // 오른쪽 정렬
-                .font(.title)
-                .frame(maxWidth: .infinity, alignment: .trailing)
-            ForEach(buttons, id: \.self) {row in
-                HStack(){
-                    ForEach(row, id: \.self) { button in
-                        Button (action: {
-                            // 버튼 누를 때 action 함수
-                            handlePressButton(button: button)
-                        }, label: {
-                            Text(button)
-                                .font(.title)
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        })
+            VStack {
+                Text(title) // 가장 위에 배치
+                    .font(.title)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(.gray)
+                Text(display) // 오른쪽 정렬
+                    .font(.title)
+                    .frame(maxWidth: .infinity, alignment:  .trailing)
+                Text(result) // 오른쪽 정렬
+                    .font(.title)
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+                ForEach(buttons, id: \.self) {row in
+                    HStack(){
+                        ForEach(row, id: \.self) { button in
+                            Button (action: {
+                                // 버튼 누를 때 action 함수
+                                handlePressButton(button: button)
+                            }, label: {
+                                Text(button)
+                                    .font(.title)
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                    .cornerRadius(40)
+                                    .background(.gray)
+                                    .foregroundColor(.black)
+                            })
+                        }
                     }
+                    
                 }
             }
-        }
     }
     
     func handlePressButton(button: String)
