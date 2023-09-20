@@ -21,6 +21,7 @@
 		FF3EF4252AB422B9005AC6EB /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3EF4242AB422B9005AC6EB /* ThirdView.swift */; };
 		FF3EF4272AB425A8005AC6EB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3EF4262AB425A8005AC6EB /* MenuView.swift */; };
 		FF3EF4292AB42BA9005AC6EB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3EF4282AB42BA9005AC6EB /* SearchBar.swift */; };
+		FF3EF42B2ABAE25E005AC6EB /* LocationDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3EF42A2ABAE25E005AC6EB /* LocationDataManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		FF3EF4242AB422B9005AC6EB /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		FF3EF4262AB425A8005AC6EB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FF3EF4282AB42BA9005AC6EB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FF3EF42A2ABAE25E005AC6EB /* LocationDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				FF3EF4242AB422B9005AC6EB /* ThirdView.swift */,
 				FF3EF4262AB425A8005AC6EB /* MenuView.swift */,
 				FF3EF4282AB42BA9005AC6EB /* SearchBar.swift */,
+				FF3EF42A2ABAE25E005AC6EB /* LocationDataManger.swift */,
 			);
 			path = ex00;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				FF3EF4212AB421CD005AC6EB /* FirstView.swift in Sources */,
 				FF3EF4272AB425A8005AC6EB /* MenuView.swift in Sources */,
 				FF3EF4292AB42BA9005AC6EB /* SearchBar.swift in Sources */,
+				FF3EF42B2ABAE25E005AC6EB /* LocationDataManger.swift in Sources */,
 				FF3EF41B2AB41DAC005AC6EB /* weatherApp.swift in Sources */,
 				FF3EF3F32AB41B59005AC6EB /* ContentView.swift in Sources */,
 				FF3EF41F2AB420F6005AC6EB /* MainView.swift in Sources */,
@@ -447,6 +451,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ex00/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow mobile_module to access this device's location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +480,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ex00/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow mobile_module to access this device's location?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
